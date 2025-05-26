@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>La tecnología en la educación</title>
+
+    <!--bootstrap (se utilizo en la tabla y sección preguntas frecuentes)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<style>
+    
+    /*Cuerpo*/
+    body {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(219, 213, 213);
+          margin: 0;
+          padding: 0;
+          color: rgb(0, 0, 0);
+    }           
+    /*Header y footer */
+        header, footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        header {font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            height:90px;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+        footer strong{text-decoration: underline;}
+        
+        /* Navegacion*/
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid gray;
+            border-radius: 120px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color:red;
+        }
+
+        /*Seccion*/
+        section {
+        background-color: white;
+        padding: 15px;
+        margin: 15px;
+        border: 3px solid black;
+        }
+        
+        /*Aside (bibliografia)*/
+        aside{
+            background-color: lightyellow;
+            color:black;
+            margin: 30px;
+        }
+        aside .titulos_secundarios{
+            text-align: center;
+        }
+        aside p {
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        aside a:hover {
+            color:red;
+        }
+        
+        /*Especificos*/
+        /*Fondito separador para los titulos secundarios*/
+        h2.titulos_secundarios {
+        background-color: black;
+        color: white;
+        border: 3px solid gray;
+        border-radius: 30px;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        /*Lista de lo que puedes encontrar en la pagina*/
+        th{text-align: center;}
+
+        .lista1
+        {color: blue ;
+        }
+
+        .lista1 li a{
+            color:blue;
+        }
+
+        #creador{
+            position: relative;
+            left:500px;
+            top: 10px;
+
+        }
+
+    </style>
+<body>
+
+<header>Análisis de la tecnología en la educación</header>
+
+    <!--Navegación-->
+    <nav>
+        <ul>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#papel_actual_y_futuro">Actualmente y en el futuro</a></li>
+            <li><a href="#herramientas_mas_utilizadas">Herramientas mas usadas</a></li>
+            <li><a href="#ventajas_y_desventajas">Ventajas y desventajas</a></li>
+        </ul>
+    </nav>
+
+    <!-- Inicio -->
+<section>
+<article id="inicio">
+	<p>Como todos sabemos, la tecnología se ha convertido en uno de los pilares fundamentales para la facilitación de nuestras tareas diarias, lo cual no solo ha provocado un cambio de hábitos en la forma de comunicarnos y de acceder a la información, sino que también ha transformado radicalmente los procesos de enseñanza y aprendizaje. Con esta pagina se busca dar a conocer como fue que llego la tecnología para transformar la manera en que aprendemos, enseñamos y las ventajas y desventajas de esta.</p>
+
+    <!-- Lista de contenido -->
+	<h2 class="lista1">Contenido que encontraras</h2>
+    <ul class="lista1"> 
+        <li> <a href="#historia"> Historia del como llego la tecnología a nuestro sistema de educación</a></li>
+        <li> <a href="#papel_actual_y_futuro"> El papel de la tecnología en la forma de aprender actual y en el futuro</a></li>
+        <li> <a href="#herramientas_mas_utilizadas"> Herramientas digitales más utilizadas en el ámbito educativo</a></li>
+        <li> <a href="#ventajas_y_desventajas"> Ventajas y desventajas del uso de la tecnología en el aula </a></li>
+    </ul>
+</article>
+
+<!-- Historia -->
+
+<article id="historia">
+    <h2 class="titulos_secundarios">Historia del como llego la tecnología a nuestro sistema de educación</h2>
+
+    <p>Para que la tecnologia lograra ser considerada un sistema educativo tuvo que pasar por un proceso que ha logrado modificar la forma de enseñar y aprender para poderse adaptar a las necesidades modernas y es que en epocas pasadas la educación era tomada por libros impresos y métodos presenciales donde el sistema de aprendizaje se basaba mas en la memoria del estudiante a que su cualidades.</p>
+
+    <p>Sin embargo, a medida que avanzaba el siglo XX la incorporación de herramientas tecnológicas comenzó a transformar gradualmente las aulas, donde se comenzaria a incorporar herramientas tecnológicas como los medios audiovisuales y las computadoras lo que permitió el desarrollo de software educativo que facilitó un aprendizaje más interactivo y menos dependiente del sistema basado en la memoria, poco a poco la expansión del internet representó un punto de oportunidad abriendo el acceso a recursos en línea como las aulas virtuales y una comunicación instantánea que eliminó las barreras existentes entre estudiantes y docentes. Con el paso de las últimas décadas, la adopción de dispositivos móviles y plataformas digitales ha permitido la comodidad y facilitación del proceso educativo transformándolo en un sistema mas agradable y personalizable.</p>
+</article>
+
+<!-- El papel en la forma de aprender actual y en el futuro -->
+
+<article id="papel_actual_y_futuro">
+    <h2 class="titulos_secundarios">El papel de la tecnología en la forma de aprender actual y en el futuro</h2>
+
+    <p>Actualmente, las herramientas como plataformas de aprendizaje en línea y la realidad aumentada facilitan la enseñanza al adaptarse a las necesidades individuales de los estudiantes, mejorando la accesibilidad y optimizando la retención de información adaptonse al estilo que mas se les sea comodo. En el futuro, se espera que la tecnología continúe evolucionando hacia métodos aún más inmersivos, integrando mas funciones avanzadas para poder personalizar la enseñanza ademas de mejorar el acceso a estas educaciones mediante dispositivos más accesibles.</p>
+</article>
+
+<!-- Herramientas digitales más utilizadas -->
+
+<article id="herramientas_mas_utilizadas">
+    <h2 class="titulos_secundarios">Herramientas digitales más utilizadas en el ámbito educativo</h2>
+
+    <p>Como sabemos las herramientas digitales han transformado el ámbito educativo al facilitar el acceso al conocimiento, optimizar la enseñanza y personalizar el aprendizaje. Existen diversas categorias populares como la de comunicación al estilo de zoom y teams que permiten la administración de cursos y la interacción entre docentes y estudiantes, los recursos educativos abiertos como los son Khan Academy y Coursera los cuales ofrecen contenido gratuito y estructurado en diversas disciplinas, ademas de sistemas de evaluación en línea, como Kahoot! y Quizizz los cuales hacen que el proceso de evaluación sea interactivo y dinámico y ya por ultimo algunas que ayudan a fomentar el aprendizaje de programación y ciencias aplicadas como Scratch.</p>
+</article>
+
+<!-- Ventajas y desventajas -->
+<article id="ventajas_y_desventajas">
+    <h2 class="titulos_secundarios">Ventajas y desventajas de la tecnología en el aula</h2>
+    <p>Con esta tabla podremos observar resumidamente cuales son las ventajas y desventajas a la hora de aplicar este sistema educativo.</p>
+
+<table class="table table-bordered table-striped">
+  <thead class="table-dark">
+    <tr>
+      <th>Ventajas</th>
+      <th>Desventajas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Facilita el acceso a una gran cantidad de información.</td>
+      <td>Puede generar distracciones con el acceso a redes sociales y juegos.</td>
+    </tr>
+    <tr>
+      <td>Permite una enseñanza más interactiva y personalizada.</td>
+      <td>Exige una capacitación constante para docentes y estudiantes.</td>
+    </tr>
+    <tr>
+      <td>Fomenta el aprendizaje colaborativo y el desarrollo de habilidades digitales.</td>
+      <td>Dependencia de la tecnología y posible disminución de habilidades externas.</td>
+    </tr>
+    <tr>
+      <td>Optimiza procesos administrativos y facilita la comunicación.</td>
+      <td>Riesgo de desigualdad en el acceso por limitaciones económicas.</td>
+    </tr>
+    <tr>
+      <td>Proporciona herramientas innovadoras para el aprendizaje.</td>
+      <td>Posible reducción de la interacción social presencial.</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--Preguntas frecuentes-->
+<div class="accordion accordion-flush">
+    <h6 class="px-3 pt-3 text-muted">Preguntas frecuentes</h6>
+  <div class="accordion-item">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        ¿Cómo integrar la tecnología de forma efectiva en el aula?
+      </button>
+
+    <div id="flush-collapseOne" class="accordion-collapse collapse">
+      <div class="accordion-body">Es fundamental centrarse en escoger la tecnología adecuada para que de esta manera se pueda capacitar tanto a profesores como a estudiantes, permitiéndoles familiarizarse con su uso. Además de que se debe contribuir a la creación de un entorno de aprendizaje seguro y fomentar la reflexión sobre su aplicación y las normas para un uso practico. </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        ¿Qué desafíos se pueden enfrentar al querer utilizar tecnología en la educación?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" >
+      <div class="accordion-body">Algunos desafíos incluyen la falta de conocimiento tecnológico, la capacitación y compromiso de los profesores, la accesibilidad a la tecnología para todos los estudiantes, la seguridad en línea, etc...</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        ¿Que habitos son los mas adecuados si se quiere optar por esta forma de estudiar?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">Si se quiere estudiar de una forma virtual es recomendable adoptar hábitos que optimicen el aprendizaje sin generar dependencia como pueden ser: establecer una rutina estructurada, fomentar la gestión del tiempo y establecer límites en el uso de dispositivos ademas de evitar distracciones innecesarias.</div>
+    </div>
+</article>
+
+<!--Bibliografia -->
+
+<aside>
+	<h3 class="titulos_secundarios">Bibliografia</h3>
+		<p>Esta pagina ha utilizado información externa, extraida de las siguientes paginas: <a href="https://colombia.universidadeuropea.com/blog/tecnologia-educativa/" target="_blank">https://colombia.universidadeuropea.com/blog/tecnologia-educativa/ </a></p>
+</aside>
+
+<!-- Info creador -->
+<footer>Pagina creada por Juan Camilo Becerra<br><strong>Contacto: 3102868800, Correo: juancamilobecerra2009@gmail.com, Institución: Skolmi</strong> </footer>
+    <img id= creador src="https://lh3.googleusercontent.com/a/ACg8ocJSRCrr6gfbS5vVHW5_-wUEi89uirE8OUqijACEUgQ-HlqAJIxG=s288-c-no">
+
+
+</body>
+</html>
